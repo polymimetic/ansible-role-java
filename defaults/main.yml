@@ -1,0 +1,11 @@
+---
+# defaults file for java
+
+# Set java_packages if you would like to use a different version than the
+# default (OpenJDK 1.7).
+java_packages:
+  - default-jre
+  - default-jre-headless
+
+# If set, the role will set the global environment variable `JAVA_HOME` to this value.
+java_home: ""
